@@ -1,0 +1,21 @@
+{
+  "name": "chai-mongoose",
+  "version": "0.0.0",
+  "description": "Mongoose assertions for Chai.js",
+  "homepage": "https://github.com/vesln/chai-mongoose",
+  "author": "Veselin Todorov <hi@vesln.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vesln/chai-mongoose"
+  },
+  "devDependencies": {
+    "hydro": "~0.9.0",
+    "hydro-minimal": "0.0.1",
+    "hydro-dot": "~1.0.5"
+  }
+}
