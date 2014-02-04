@@ -1,6 +1,8 @@
 all: clean install test
 
-install:
+install: node_modules
+
+node_modules:
 	@npm install
 
 test:
@@ -11,4 +13,4 @@ test-ci: test
 clean:
 	@rm -rf node_modules
 
-.PHONY: test
+.PHONY: test test-ci clean
